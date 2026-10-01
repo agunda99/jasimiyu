@@ -26,6 +26,7 @@
       <a href="#approach">Our approach</a>
       <a href="#practice">Practice areas</a>
       <a href="#team">The team</a>
+      <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
     </nav>
     <a class="header-cta" href="mailto:simiyuadvocate@yahoo.com?subject=Consultation%20request">Book a consultation
@@ -64,7 +65,7 @@
         <p class="kicker">The difference is in the preparation.</p>
         <h2>Cases are not won in court.<br /><em>They are built in an advocate's office.</em></h2>
         <div class="statement-bottom">
-          <p>We listen closely, think rigorously and act decisively. For individuals, families and businesses across the
+          <p>We listen closely, analyze and act decisively. For individuals, families and businesses across the
             Rift Valley, we are the steady hand behind legal strategy.</p>
           <a class="circle-link" href="#contact" aria-label="Speak to our team">↗</a>
         </div>
@@ -127,25 +128,99 @@
             <div><strong>J.A. Simiyu</strong><small>Managing Partner · Nakuru</small></div><span
               class="person-arrow">↗</span>
           </div>
+          <div class="team-person reveal"><span class="person-index">04</span>
+            <div><strong>Manases Ogalo</strong><small>Advocate · J.A. Simiyu & Co.</small></div><span
+              class="person-arrow">↗</span>
+          </div>
           <div class="team-person reveal"><span class="person-index">02</span>
             <div><strong>Florence Muigai</strong><small>Office Manager · Molo</small></div><span
               class="person-arrow">↗</span>
           </div>
           <div class="team-person reveal"><span class="person-index">03</span>
-            <div><strong>Millionth Haya</strong><small>Office Manager · Nakuru</small></div><span
-              class="person-arrow">↗</span>
-          </div>
-          <div class="team-person reveal"><span class="person-index">04</span>
-            <div><strong>Manases Ogalo</strong><small>Advocate · J.A. Simiyu & Co.</small></div><span
+            <div><strong>Millicent Haya</strong><small>Office Manager · Nakuru</small></div><span
               class="person-arrow">↗</span>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="reviews" id="reviews">
+      <div class="section-label"><span>04</span><span>Feedback &amp; Testimonials </span></div>
+      <div class="reviews-layout">
+        <div class="reviews-copy reveal">
+          <p class="kicker">Your experience matters</p>
+          <h2>Help others find<br /><em>the right counsel.</em></h2>
+          <p>Tell us about the service you received. Please leave out confidential information about you and your case.</p>
+        </div>
+        <form class="review-form reveal" id="review-form">
+          <div class="review-form-row">
+            <label class="form-field">Name to display
+              <input name="name" type="text" autocomplete="name" maxlength="80" placeholder="Your name" required />
+            </label>
+            <label class="form-field">Service received
+              <select name="service" required>
+                <option value="">Choose a practice area</option>
+                <option>Dispute resolution & litigation</option>
+                <option>Commercial & corporate</option>
+                <option>Land, property & succession</option>
+                <option>Family & personal legal affairs</option>
+                <option>Other</option>
+              </select>
+            </label>
+          </div>
+          <fieldset class="rating-field">
+            <legend>Your rating</legend>
+            <div class="rating-options" aria-label="Choose a rating from one to five stars">
+              <input id="rating-5" name="rating" type="radio" value="5" required />
+              <label for="rating-5" aria-label="5 stars">★</label>
+              <input id="rating-4" name="rating" type="radio" value="4" />
+              <label for="rating-4" aria-label="4 stars">★</label>
+              <input id="rating-3" name="rating" type="radio" value="3" />
+              <label for="rating-3" aria-label="3 stars">★</label>
+              <input id="rating-2" name="rating" type="radio" value="2" />
+              <label for="rating-2" aria-label="2 stars">★</label>
+              <input id="rating-1" name="rating" type="radio" value="1" />
+              <label for="rating-1" aria-label="1 star">★</label>
+            </div>
+          </fieldset>
+          <label class="form-field">Your review
+            <textarea name="review" rows="5" maxlength="1500" placeholder="What stood out about your experience?" required></textarea>
+          </label>
+          <label class="review-consent">
+            <input name="permission" type="checkbox" required />
+            <span>I confirm this review is honest and contains no confidential case details.</span>
+          </label>
+          <button class="button button-dark review-submit" type="submit">Add review <span>↗</span></button>
+          <p class="review-status" id="review-status" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="published-reviews" aria-labelledby="published-reviews-heading">
+        <h3 id="published-reviews-heading">Testimonials</h3>
+        <p class="review-period">Most recent testimonials from  our clients  during the last two quarters.</p>
+        <div class="review-management">
+          <form class="admin-signin-form" id="admin-signin-form" hidden>
+            <label class="form-field">Admin email
+              <input name="email" type="email" autocomplete="username" required />
+            </label>
+            <label class="form-field">Password
+              <input name="password" type="password" autocomplete="current-password" required />
+            </label>
+            <button class="review-action" type="submit">Sign in</button>
+            <p class="admin-signin-status" id="admin-signin-status" aria-live="polite"></p>
+          </form>
+          
+        </div>
+        <div class="published-review-list" id="published-review-list" aria-live="polite">
+          <p class="published-review-empty">No reviews yet. Be the first to share your experience.</p>
+        </div>
+          <button class="review-action" id="manage-reviews" type="button" aria-expanded="false">Admin sign in</button>
+
+      </div>
+    </section>
+
     <section class="contact" id="contact">
       <div class="contact-inner">
-        <div class="section-label light"><span>04</span><span>Let’s talk</span></div>
+        <div class="section-label light"><span>05</span><span>Let’s talk</span></div>
         <div class="contact-grid">
           <div class="contact-heading reveal">
             <h2>Ready when<br /><em>you are.</em></h2>
@@ -176,6 +251,7 @@
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="script.js"></script>
 </body>
 
